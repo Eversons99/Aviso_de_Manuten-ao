@@ -1,0 +1,251 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: gray;
+  }
+  b {
+    color: #fcaf17;
+  }
+  
+  .container {
+    max-width: 800px;
+    max-height: 100%;
+    background: #042698;
+    display: flex;
+    flex-direction: column; /*Colocando os elementos filhos um abaixo do outro*/
+    align-items: center; /*Alinhando o conteudo ao centro*/
+    margin: 10px auto 10px auto; /*Centralizando a div continer*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    
+  }
+
+  .cabecalho {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .item-cabecalho {
+    
+    color: white;
+    text-align: center;
+    max-width: 100%;
+    align-items: center;
+  }
+  .item-cabecalho p{
+      max-width: 70%;
+      margin: 10px auto 10px auto; /*Centralizando a div continer*/
+      font-size: 50px;
+  }
+  .item-cabecalho img{
+      max-height: 110px;
+      max-width: 110px;
+  }
+
+  .conteudo {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    text-align: justify;
+  }
+
+  .item-conteudo{
+    max-width: 70%;
+  }
+
+  .horario {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+ 
+  }
+  .item-horario {
+    color: white;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .agradecimento {
+    text-align: center;
+    font-size: 24px;
+  }
+
+
+  .rodape{
+    width: 100%;
+    display: flex;
+    background: white;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+      
+  }
+
+  .item-rodape img {
+    max-width: 150px;
+    max-height: 150px;
+    margin: 10px;
+
+  }
+
+  a {
+    text-decoration: none;
+    color: #fcaf17;
+  }
+
+  @media (max-width: 560px) {
+
+    .container {
+        background: #042698;
+        max-width: auto;
+        font-size: 24px;
+        max-height: 90%;
+      }
+      .cabecalho {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+      }
+
+      .item-cabecalho {
+    
+        color: white;
+        text-align: center;
+        max-width: 100%;
+        align-items: center;
+      }
+      .item-cabecalho p{
+          max-width: 70%;
+          margin: 10px auto 10px auto; /*Centralizando a div continer*/
+          font-size: 40px;
+      }
+      .item-cabecalho img{
+          max-height: 100px;
+          max-width: 100px;
+      }
+      .conteudo {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        text-align: justify;
+        align-items: center; /*Alinhando o conteudo ao centro*/
+      }
+
+      .item-conteudo{
+        max-width: 80%;
+      }
+
+      .horario {
+        width: 80%;
+      }
+
+      .agradecimento {
+          max-width: 70%;
+        text-align: center;
+        font-size: 25px;
+      }
+
+      .rodape{
+        width: 100%;
+        display: flex;
+        background: white;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+          
+      }
+    
+    
+      .item-rodape img {
+        max-width: 150px;
+        max-height: 150px;
+        margin-top: 5px;
+        align-items: center;
+        justify-content: center;
+    
+      }
+
+  }
+
+
+  @media (max-width: 460px) {
+    .container {
+        background: #042698;
+        max-width: auto;
+        font-size: 20px;
+        max-height: 90%;
+      }
+      .cabecalho {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+      }
+
+      .item-cabecalho {
+    
+        color: white;
+        text-align: center;
+        max-width: 100%;
+        align-items: center;
+      }
+      .item-cabecalho p{
+          widows: auto;
+          margin: 10px auto 10px auto; /*Centralizando a div continer*/
+          font-size: 35px;
+        
+      }
+      .item-cabecalho img{
+          margin-top: 10px;
+          max-height: 100px;
+          max-width: 100px;
+      }
+      .conteudo {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        text-align: justify;
+        align-items: center; /*Alinhando o conteudo ao centro*/
+      }
+
+      .item-conteudo{
+        max-width: 90%;
+      }
+
+      .horario {
+        width: 90%;
+        font-size: 18;
+      }
+
+      .agradecimento {
+        max-width: 70%;
+        text-align: center;
+        font-size: 18px;
+      }
+
+  }
+
+  @media (max-width: 360px) {
+    .container {
+        background: #042698;
+        max-width: auto;
+        font-size: 18px;
+        max-height: 90%;
+      }
+    
+
+      .agradecimento {
+        max-width: 70%;
+        text-align: center;
+        font-size: 18px;
+      }
+
+  }
